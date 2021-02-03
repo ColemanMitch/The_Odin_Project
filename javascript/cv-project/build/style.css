@@ -1,0 +1,11 @@
+div.app-title { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin-left: 0.5rem; 
+    font-size: 25px !important;
+}
