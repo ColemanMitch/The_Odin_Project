@@ -2,7 +2,7 @@
   "name": "cv-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://colemanmitch.github.io/TOP-Portfolio/javascript/cv-project",
+  "homepage": "http://colemanmitch.github.io/The_Odin_Project/javascript/cv-project",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
