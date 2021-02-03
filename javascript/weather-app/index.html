@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a538d6fa29.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style>
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <div id="search-container">
+        <form>
+            <i id="search-button" class="fas fa-search"></i>
+            <input type="text" id="city-input" name="city-input" placeholder="City">
+        </form>
+        <br>
+    </div>
+    <div id="error-message-container">
+        <p id="error-message">City doesn't exist!</p>
+    </div>
+    <div id="app-container">
+        <div class="main-weather-display info">
+            <div class="general-info">
+                <div class="location-flag-container">
+                    <h1 id="location"> ,</h1> <img id="flag" alt="flag"
+                        src="https://www.countryflags.io/US/flat/64.png">
+                </div>
+                <div class="weather-icon-container">
+                    <p id="current-degrees"></p><img id="weather-icon" alt="weather" src="">
+                </div>
+                <br>
+                <span id="degrees"></span>
+                <p id="conditions"></p>
+            </div>
+            <div class="weather-details info">
+                <p id="conditions-2"></p>
+            </div>
+            <p id="local-time">Local Time: </p>
+            <div id="switch-container">
+                <p id="fahrenheit">ºF</p>
+                <label class="switch">
+                    <input type="checkbox" id="degrees-units">
+                    <span class="slider round"></span>
+                </label>
+                <p id="celsius">ºC</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+<script type="module" src="app.js"></script>
+
+</html>

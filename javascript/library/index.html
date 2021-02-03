@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Digital Library 📚</h1>
+    <br>
+    <div id="add-book-button">
+        <button onclick="showForm()">Add another book</button>
+    </div>
+    <div>
+        <form id="formElement">
+            <label for="new-title">Title</label><br>
+            <input type="text" id="new-title" name="new-title" placeholder="e.g. A Christmas Carol" minlength="3"
+                required/>
+            <br><br>
+            <label for="new-author">Author</label><br>
+            <input type="text" id="new-author" name="new-author" placeholder="e.g. Charles Dickens" minlength="3"
+                required/>
+            <br><br>
+            <label for="new-pages"># of Pages</label><br>
+            <input type="number" id="new-pages" name="new-title" placeholder="e.g. 198" min="0" max="10000"
+                width="100px" required/>
+            <br><br>
+            <legend>Have you read this book?</legend>
+            <input type="radio" required name="new-read" id="read-status" value="true"><label
+                for="read-status">Yes</label>
+            <input type="radio" required name="new-read" id="not-read-status" value="false"><label
+                for="not-read-status">No</label>
+            <br>
+            <input type="submit" value="Submit" id="submit-button" > <!--- onsubmit="addNewBook()"> -->
+        </form>
+    </div>
+    <br>
+    <br>
+    <table class="table" id="library">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col" style="width: 30%">Title</th>
+                <th scope="col" style="width: 20%">Author</th>
+                <th scope="col" style="width: 10%">Pages</th>
+                <th scope="col" style="width: 10%">Status</th>
+                <th scope="col" style="width: 5%"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+    </table>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

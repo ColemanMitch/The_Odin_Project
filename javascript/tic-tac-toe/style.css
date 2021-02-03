@@ -1,0 +1,57 @@
+.box {
+    height: 95px;
+    width: 95px;
+    border: black 1px solid;
+    cursor: pointer;
+    /*display: flex;*/
+    text-align: center;
+    vertical-align: middle;
+    line-height: 95px; /* <-- this is what you must define */
+    font-size: 40px;
+}
+
+.box:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1, h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: pink;
+    text-align: center;
+    font-family: monospace;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-right: 10px;
+   
+}
+
+body {
+    background-color: gray;
+    
+    font-family: monospace;
+    
+}

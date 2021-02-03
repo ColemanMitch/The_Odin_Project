@@ -1,0 +1,182 @@
+#app-container {
+  background-color: rgba(21, 112, 231, 0.726);
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  left: 15%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-right: 20rem;
+  margin-left: 20rem;
+}
+.location-flag-container,
+.weather-details.info {
+  display: flex; /* or inline-flex */
+  justify-content: center;
+}
+.location-flag-container {
+    padding-top: 25px;
+}
+#error-message-container {
+    background-color: rgba(21, 112, 231, 0.726);
+    display: flex; /* or inline-flex */
+    justify-content: center;
+    min-height: 20px;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    justify-content: center;
+}
+
+#error-message {
+    /*visibility: hidden;*/
+    color: red;
+    display: none;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+
+}
+
+#search-container {
+  padding-top: 1rem;
+  background-color: rgba(21, 112, 231, 0.726);
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-right: 20rem;
+  margin-left: 20rem;
+}
+
+body {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  /*background-color: rgba(15, 77, 158, 0.952);*/
+  background: rgb(2, 21, 31);
+  background: linear-gradient(
+      180deg,
+      rgba(2, 21, 31, 1) 0%,
+      rgba(9, 9, 121, 1) 48%,
+      rgba(5, 138, 164, 1) 100%
+    )
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3 {
+  display: block;
+}
+h1 {
+  padding-right: 1rem;
+}
+h2 {
+  display: flex !important;
+  flex-direction: center;
+  font-size: 1.5em;
+  margin-inline-end: 0px;
+}
+
+i.fas.fa-search:hover {
+  cursor: pointer;
+}
+
+#degrees,
+#local-time,
+.weather-icon-container {
+  display: flex !important;
+  flex-direction: unset;
+  justify-content: center;
+}
+
+input#city-input {
+  border-radius: 5px;
+  height: 25px;
+  border: 0px;
+}
+
+#current-degrees {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+#switch-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+#fahrenheit {
+  padding-right: 10px;
+}
+
+#celsius {
+  padding-left: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

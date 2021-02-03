@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+  .btn-group button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    /*float: left; /* Float the buttons side by side */
+    display: block;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+  }
+
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors</title>
+  
+
+<body>
+  <h1>Rock, Paper, Scissors</h1>
+  <div id="container">
+  	<div class="content">
+    Current Score... User:<p id="userscore"></p>  to Computer: <p id="compscore"></p> </div>
+  </div>
+  <br>
+  <div class="btn-group">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+  </div>
+</body>
+<script src="rps2.js">
+</script>
+</head>
+
+<body>
+</body>
+
+</html>
