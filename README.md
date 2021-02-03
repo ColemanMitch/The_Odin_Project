@@ -14,6 +14,6 @@ My projects and assignments for each course are contained in this repo.
 - [Library](https://colemanmitch.github.io/The_Odin_Project/javascript/library)
 - [Tic-Tac-Toe](https://colemanmitch.github.io/The_Odin_Project/javascript/tic-tac-toe)
 - [Restaurant Page](https://colemanmitch.github.io/The_Odin_Project/javascript/restaurant-page/dist)
-- To Do List
+- [To Do List](https://colemanmitch.github.io/The_Odin_Project/javascript/to-do-list/dist)
 - [Weather App](https://colemanmitch.github.io/The_Odin_Project/javascript/weather-app)
 - C.V. Project
