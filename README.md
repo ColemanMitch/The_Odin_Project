@@ -16,4 +16,5 @@ My projects and assignments for each course are contained in this repo.
 - [Restaurant Page](https://colemanmitch.github.io/The_Odin_Project/javascript/restaurant-page/dist)
 - [To Do List](https://colemanmitch.github.io/The_Odin_Project/javascript/to-do-list/dist)
 - [Weather App](https://colemanmitch.github.io/The_Odin_Project/javascript/weather-app)
-- C.V. Project
+- [C.V. Project](https://colemanmitch.github.io/CV-Project/)
+- [Memory Card Game]
