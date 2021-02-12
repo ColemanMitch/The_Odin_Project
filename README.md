@@ -17,4 +17,4 @@ My projects and assignments for each course are contained in this repo.
 - [To Do List](https://colemanmitch.github.io/The_Odin_Project/javascript/to-do-list/dist)
 - [Weather App](https://colemanmitch.github.io/The_Odin_Project/javascript/weather-app)
 - [C.V. Project](https://colemanmitch.github.io/CV-Project/)
-- [Memory Card Game]
+- [Memory Card Game](https://colemanmitch.github.io/TOP-Memory-Card-Game-JS)
