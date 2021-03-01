@@ -18,3 +18,7 @@ My projects and assignments for each course are contained in this repo.
 - [Weather App](https://colemanmitch.github.io/The_Odin_Project/javascript/weather-app)
 - [C.V. Project](https://colemanmitch.github.io/CV-Project/)
 - [Memory Card Game](https://colemanmitch.github.io/TOP-Memory-Card-Game-JS)
+- [Shopping Cart](https://colemanmitch.github.io/TOP-Shopping-Cart-JS)
+- Battleship
+- 
+
